@@ -17,9 +17,6 @@
   "dependencies": {
     "vue": "^3.2.37"
   },
-  "husky":{
-    "pre-commmit":"pnpm test"
-  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
     "eslint": "^8.21.0",
