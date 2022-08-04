@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.ts,.tsx,.vue",
     "lint:fix": "eslint . --ext .js,.ts,.tsx,.vue --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "vue": "^3.2.37"
