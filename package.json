@@ -28,6 +28,11 @@
     "prettier": "^2.7.1",
     "vite": "^3.0.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
   "lint-staged": {
     "*.{js,ts,tsx,vue}": "eslint --fix"
   }
