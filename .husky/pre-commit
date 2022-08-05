@@ -1,5 +1,7 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+# #!/bin/sh
+# . "$(dirname "$0")/_/husky.sh"
 
-pnpm test
-npx lint-staged
+# pnpm test
+# npx lint-staged
+
+exit 1 # Commit will be aborted
